@@ -5,6 +5,7 @@
         font-size: 30px;
     }
     p{
+        font-family: 'Roboto', sans-serif;
         font-size: 17px;
         margin-left: 10px;
     }
@@ -36,6 +37,7 @@
     margin: 10px;
     grid-area: image;
     justify-self: center;
+    align-self: center;
 }
 .cart-text{
     grid-area: text;
@@ -151,6 +153,11 @@
     color: white;
     font-family: "Futura-extrabold-condensed";
     font-size: 100%;
+}
+.buy-label:hover{
+    transform: scale(1.02);
+    background-color: seagreen;
+    cursor: pointer;
 }
 .buy{
     margin: 5px 10px;

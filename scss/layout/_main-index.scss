@@ -27,6 +27,10 @@
             width: 155px;
         }
     }
+    @media (min-width: 1200px){
+        background-color: #f6f6f6;
+        background-size: auto;
+    }
 }
 .airforce-uno-text{
     color: black;

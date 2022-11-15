@@ -14,6 +14,11 @@
   list-style: none;
   box-sizing: border-box; }
 
+.container {
+  height: 100vh;
+  display: grid;
+  align-content: space-between; }
+
 body {
   height: 100vh; }
 
@@ -253,6 +258,10 @@ footer {
       grid-template-rows: repeat(2, 155px); }
       .airforce-uno img {
         width: 155px; } }
+  @media (min-width: 1200px) {
+    .airforce-uno {
+      background-color: #f6f6f6;
+      background-size: auto; } }
 
 .airforce-uno-text {
   color: black;
@@ -276,6 +285,7 @@ footer {
     font-family: "Futura-extrabold-condensed";
     font-size: 30px; }
   .cart-title-pag p {
+    font-family: 'Roboto', sans-serif;
     font-size: 17px;
     margin-left: 10px; }
 
@@ -302,7 +312,8 @@ footer {
   height: 89%;
   margin: 10px;
   grid-area: image;
-  justify-self: center; }
+  justify-self: center;
+  align-self: center; }
 
 .cart-text {
   grid-area: text;
@@ -417,6 +428,11 @@ footer {
   color: white;
   font-family: "Futura-extrabold-condensed";
   font-size: 100%; }
+
+.buy-label:hover {
+  transform: scale(1.02);
+  background-color: seagreen;
+  cursor: pointer; }
 
 .buy {
   margin: 5px 10px; }
@@ -685,6 +701,16 @@ footer {
   justify-content: center;
   align-items: center; }
 
+.add-cart:hover {
+  transform: scale(1.008);
+  background-color: grey;
+  cursor: pointer; }
+
+.add-favorite:hover {
+  transform: scale(1.06);
+  background-color: grey;
+  cursor: pointer; }
+
 .add-cart-text {
   font-family: "Futura-extrabold-condensed";
   padding: 10px;
@@ -854,3 +880,11 @@ footer {
 @media (min-width: 992px) {
   .tu-perfil-background {
     display: initial; } }
+
+.zapatillas {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  gap: 1rem;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center; }

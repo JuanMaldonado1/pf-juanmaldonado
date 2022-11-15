@@ -97,6 +97,16 @@
     justify-content: center;
     align-items: center;
 }
+.add-cart:hover{
+    transform: scale(1.008);
+    background-color: grey;
+    cursor: pointer;
+}
+.add-favorite:hover{
+    transform: scale(1.06);
+    background-color: grey;
+    cursor: pointer;
+}
 .add-cart-text{
     font-family: "Futura-extrabold-condensed";
     padding: 10px;
